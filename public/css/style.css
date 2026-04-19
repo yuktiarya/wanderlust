@@ -132,3 +132,88 @@ body {
     height: 400px;
     width: 100%; 
 }
+
+/* Navbar Search Tools */
+.search-btn {
+    background-color: #fe424d;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0 1rem;
+}
+
+.search-btn:hover {
+    background-color: #fe424d;
+    color: #fff;
+}
+
+.search-btn i {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.search-input {
+    border-radius: 25px;
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+}
+
+/* ========================================= */
+/*       Media Queries for Responsiveness    */
+/* ========================================= */
+
+/* Large devices */
+@media (max-width: 992px) {
+    .search-input {
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+/* Medium devices */
+@media (max-width: 768px) {
+    #map {
+        height: 300px;
+    }
+    .f-info {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.8rem;
+    }
+    .f-info-links {
+        margin-top: 0.5rem;
+    }
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+    .search-input {
+        padding: 0.5rem 1rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .search-btn {
+        width: 100%;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+    }
+    .navbar-nav form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #map {
+        height: 250px;
+    }
+    .card-img-top {
+        height: 15rem !important; 
+    }
+    .filter p {
+        font-size: 0.7rem;
+    }
+    .filter {
+        margin-right: 1.2rem;
+    }
+    .tax-toggle {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}
