@@ -108,11 +108,6 @@ npm start
 # or 
 node app.js
 ```
-
-### 6. View the App
-Open your favorite web browser and navigate to:
-**`https://wanderlust-47ff.onrender.com`**
-
 ---
 
 ## 📁 Project Structure
